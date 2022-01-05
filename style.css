@@ -1,0 +1,104 @@
+html { 
+  color: white;
+  background: url("https://images.unsplash.com/photo-1619441207978-3d326c46e2c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+[data-row] {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin: 25px;
+  border: 1px solid lightgray;
+}
+
+.row {
+  z-index: -10;
+}
+
+[data-row].red {
+  background-color: darkgray;
+}
+
+[data-row].yellow {
+  background-color: darkgray;
+}
+
+[data-row].green {
+  background-color: darkgray;
+}
+
+[data-row].blue {
+  background-color: rgb(165, 182, 197);
+}
+
+.stone {
+  z-index: 10;
+}
+
+[data-color] {
+  width: 25px;
+  float: left;
+  background-color: darkgreen;
+  
+}
+
+[data-color="blue"] {
+  height: 45px;
+  background-color: rgb(136, 136, 223);
+}
+
+[data-color="green"] {
+  height: 75px;
+  background-color: rgb(115, 170, 115);
+}
+
+[data-color="red"] {
+  height: 100px;
+  background-color: rgb(155, 87, 87);
+}
+
+[data-color="yellow"] {
+  height: 125px;
+  background-color: rgb(160, 144, 57);
+}
+
+#announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
+
+.change {
+height: 60px;
+  
+ 
+}
+
+#moveMessage {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.messagePrint{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.toh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
