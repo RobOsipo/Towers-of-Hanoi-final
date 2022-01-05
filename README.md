@@ -1,5 +1,6 @@
 
 <!-- RULES -->
+#RULES BELOW, explanation of code is done in psuedo code inside the logic
 # Towers of Hanoi is a logic game, and you have to take 3 or more blocks and stack them up starting from the largest block in another column.
 
 # You CANNOT move a larger block on top of a smaller one, and you only have 3 columns to move your blocks around to and from.
